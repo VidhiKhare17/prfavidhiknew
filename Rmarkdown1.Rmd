@@ -1,0 +1,46 @@
+---
+title: "RMarkdown Report_HW_2"
+author: "Vidhi Khare"
+date: "7 November 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Question:
+Compare these neighbouring postcodes for each of the five previous years (in our data, a year begins on 1 July): 5160, 5161. Use a selection of tables, plots and text to describe the trends in 'PROPERTY DAMAGE AND ENVIRONMENTAL' over this time period. What do you notice about these trends?
+
+-**Aim:**
+
+*There are 1145 suburbs in Adelaide as per the combined Excel sheet data. Our Aim is to investigate and find out the trend of crime/offence according to the different Offence level Descriptions and Offence count as per the reportes dates in various Adelaide suburbs.
+This will help the Investigation Agencies to take actions as per the severity of the different types of offence happening in the suburbs.
+ Example: We are comparing the neighbouring postcodes for each of the five previous years. By using a selection of tables, plots and text, we will descrie the trends in 
+ 'Property Damage and Environmental' which is one of the Offences, over this time period.*
+
+
+
+
+```{r}
+df <- data.frame(x = 1:10,
+           y = 11:20)
+library(knitr)
+kable(df)
+```
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+library(data)
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
