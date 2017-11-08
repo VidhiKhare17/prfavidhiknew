@@ -1,11 +1,10 @@
 Package: prfavidhiknew
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Contains R progams for R Programming Learning
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Vidhi Khare
+Maintainer: The package maintainer <vidhi.kh@gmail.com>
+Description:     This package contains Hw_2_Postcode_Offence_Level_1.R program file for Assignment #2.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
