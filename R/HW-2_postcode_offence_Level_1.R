@@ -31,7 +31,7 @@ correlation_offence_postcode <- function(crime_data, offence_description, postco
     stop("Please enter two postcodes")
   }
 
-
+# setting the expected column names
 expected_colnames <- c("date", "suburb", "postcode", "offence_level_1", "offence_level_2",
                         "offence_level_3", "offence_count")
 
